@@ -1,5 +1,10 @@
 # Projet rpy2
 # Predicteur passage en réanimation et durée de séjour chez patients atteints par cancer / tumeur
+# 1. Création d'un dataset avec seuleument les chirurgies tumorales
+# 2. Analayse basique du nouveau dataset divisé en deux groupes (Rea 1 / Réa 0) avec : médiane, écart type pour chaque variable. 
+# 3. Chercher les variables d'intérêts (sur les 130) en réalisant des test de Wilcoxon/ Fisher. 
+# 4. Réaliser une régression logistique en univariée sur uniquement les variables d'intérêt qui seront sorties en amont. 
+# 5. Bonus (si on est vraiment très forts) : Régression en multivariée. 
 
 # Chargement des librairies
 
